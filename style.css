@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+section, div {
+    padding: 15px;
+}
+
+hr {
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin: 2px;
+}
+
+.box {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+p, label, form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    margin: 2px;
+}
+
+#form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-field label {
+    display: inline-block;
+    width: 115px;
+    text-align: right;
+}
+
+#dropdown {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.hind {
+    float: right;
+}
+
+#calc {
+    margin-left: 25px;
+}
+
+#clock {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+}
+
+input[type=submit] {
+    background-color: #008000;
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#map {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+
+/*siin on minu looming*/
+.radio {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.radio input[name=dtype] {
+    outline: 1px solid #ffffff;
+    appearance: none;
+    /* Safari support */
+    -webkit-appearance: none;
+    border: 0.2rem solid #c4c0c0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.radio input[name=dtype]:hover {
+    outline-color: #008000FF;
+}
+
+.radio input[name=dtype]:checked {
+    outline-color: #008000FF;
+    background-color: #008000FF;
+    border-color: #65e37c;
+    animation: outline-checked;
+    animation-duration: 0.1s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes outline-checked {
+    0% {
+        outline-offset: 0;
+    }
+    100% {
+        outline-offset: -0.2rem;
+    }
+}
